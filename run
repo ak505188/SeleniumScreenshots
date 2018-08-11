@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+. bin/activate
+python index.py
+deactivate
