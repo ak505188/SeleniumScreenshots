@@ -11,7 +11,7 @@ Window widths are specified in the python script.
   2. Python 3
   3. Chrome Headless
   4. Firefox
-  5. Geckdriver (for Firefox)
+  5. Geckodriver (for Firefox)
   
 ### Installation
   1. Install dependecies.
@@ -26,7 +26,7 @@ Window widths are specified in the python script.
 ### Usage Information
 Base url, url extensions, and window sizes are stored in `index.py`. Window
 height is auto-adjusted and irrelevant. If you want to disable screenshots for
-one of the browsers comment out the code for that browser.
+one of the browsers change it's value in `enabled` dict in `index.py` to `False`.
 
 For simpler use run `./run`. This will activate the virtualenv, run the script,
 and deactivate the virtualenv when done.
